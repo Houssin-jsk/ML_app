@@ -8,7 +8,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import ConfusionMatrixDisplay, confusion_matrix, roc_curve, auc
 from sklearn.ensemble import RandomForestClassifier
 
-model_path = "https://drive.google.com/file/d/1Iu5S6LzuMr9ePxy0QiY2geO_yohAILsa/view?usp=sharing"
+model_path = "https://drive.google.com/file/d/<FILE_ID>/view?usp=sharing"
 
 if os.path.exists(model_path):
     with open(model_path, "rb") as f:
