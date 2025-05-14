@@ -1,3 +1,6 @@
-numpy
+streamlit
 pandas
+pickle-mixin
 matplotlib
+seaborn
+scikit-learn
